@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 
 * {
@@ -40,6 +40,10 @@ body {
     border-radius: 50%;
     position: relative;
     transition: transform 0.5s linear;
+}
+.container.show-nav .circle {
+    transform: rotate(-70deg);
+
 }
 
 .circle button {
